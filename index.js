@@ -48,5 +48,4 @@ app.use("/api/user/aadhar", aadharRouter);
 app.use("*", (req, res) => {
   res.status(404).send("OPPS!! 404 page not found");
 });
-
 export default app;
