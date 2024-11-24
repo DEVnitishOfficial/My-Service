@@ -20,7 +20,7 @@ const AadharCard = () => {
     e.preventDefault()
     try {
       const response = await axios.get(
-        `http://localhost:3000/api/user/aadhar/getAadhar/${searchName}`
+        `/api/user/aadhar/getAadhar/${searchName}`
       )
       console.log('response', response)
       console.log('data', response.data)

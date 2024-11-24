@@ -58,7 +58,7 @@ const AadharForm = () => {
 
     try {
       const response = await axios.post(
-        'http://localhost:3000/api/user/aadhar/submitAadharForm',
+        `/api/user/aadhar/submitAadharForm`,
         formData,
         {
           headers: {
